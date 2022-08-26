@@ -1,4 +1,6 @@
-# TodoList
+# Weather_App
+
+This is a simple Weather Application Where You can search and get Your searched city weather in that you get every details like wind, humidity min max etc.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
 
