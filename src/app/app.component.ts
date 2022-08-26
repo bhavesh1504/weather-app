@@ -21,13 +21,13 @@ export class AppComponent implements OnInit {
     this.cityName = '';
   }
 
-  onSubmit(){
-    this.getweatherData(this.cityName);
+  onSubmit(name:any){
+    this.getweatherData(name);
     this.cityName = '';
 
   }
 
-  private getweatherData(cityName:string){
+  public getweatherData(cityName:string){
     this.service.getweatherData(cityName)
     .subscribe({
       next: (e)=> {
